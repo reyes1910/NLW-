@@ -1,96 +1,97 @@
 // Estrutura de objetos
 const perguntas = [
-    {
-      pergunta: "Qual é a palavra-chave usada para declarar uma variável em JavaScript?",
-      respostas: [
-        "var", 
-        "let",
-        "const"
-      ],
-      CORRETA: 2
-    },
-    {
-      pergunta: "Qual método é usado para imprimir algo no console em JavaScript?",
-      respostas: [
-        "print()",
-        "log()",
-        "console.log()"
-      ],
-      CORRETA: 2
-    },
-    {
-      pergunta: "Qual símbolo é usado para comentários de uma linha em JavaScript?",
-      respostas: [
-        "//",
-        "/* */",
-        "#"
-      ],
-      CORRETA: 0
-    },
-    {
-      pergunta: "Qual é a função usada para converter uma string em um número em JavaScript?",
-      respostas: [
-        "parseString()",
-        "parseInt()",
-        "convertToNumber()"
-      ],
-      CORRETA: 1
-    },
-    {
-      pergunta: "Qual operador é usado para comparar igualdade em valor e tipo em JavaScript?",
-      respostas: [
-        "==",
-        "===",
-        "="
-      ],
-      CORRETA: 1
-    },
-    {
-      pergunta: "Qual método é usado para adicionar um elemento ao final de um array em JavaScript?",
-      respostas: [
-        "push()",
-        "addToEnd()",
-        "append()"
-      ],
-      CORRETA: 0
-    },
-    {
-      pergunta: "Qual é o resultado de 5 + '3' em JavaScript?",
-      respostas: [
-        "8",
-        "53",
-        "NaN"
-      ],
-      CORRETA: 1
-    },
-    {
-      pergunta: "Qual é o tipo de dado de uma variável que não foi atribuído a um valor em JavaScript?",
-      respostas: [
-        "undefined",
-        "null",
-        "empty"
-      ],
-      CORRETA: 0
-    },
-    {
-      pergunta: "Qual método é usado para remover o último elemento de um array em JavaScript?",
-      respostas: [
-        "removeLast()",
-        "pop()",
-        "deleteLast()"
-      ],
-      CORRETA: 1
-    },
-    {
-      pergunta: "Qual símbolo é usado para acessar propriedades de um objeto em JavaScript?",
-      respostas: [
-        ".",
-        "->",
-        "::"
-      ],
-      CORRETA: 0
-    }
-  ];
+  {
+    pergunta: "Qual é o nome da protagonista humana da série Monster High?",
+    respostas: [
+      "Draculaura",
+      "Frankie Stein",
+      "Cleo de Nile"
+    ],
+    CORRETA: 1 // Frankie Stein
+  },
+  {
+    pergunta: "Qual é a filha do Conde Drácula em Monster High?",
+    respostas: [
+      "Frankie Stein",
+      "Draculaura",
+      "Lagoona Blue"
+    ],
+    CORRETA: 1 // Draculaura
+  },
+  {
+    pergunta: "Qual é o nome da escola frequentada pelos monstros em Monster High?",
+    respostas: [
+      "Escola Noturna",
+      "Escola de Monstros",
+      "Monster High"
+    ],
+    CORRETA: 2 // Monster High
+  },
+  {
+    pergunta: "Quem é conhecido como 'O Monstro da Lagoa' em Monster High?",
+    respostas: [
+      "Frankie Stein",
+      "Lagoona Blue",
+      "Clawdeen Wolf"
+    ],
+    CORRETA: 1 // Lagoona Blue
+  },
+  {
+    pergunta: "Qual é a filha do Lobisomem em Monster High?",
+    respostas: [
+      "Draculaura",
+      "Clawdeen Wolf",
+      "Ghoulia Yelps"
+    ],
+    CORRETA: 1 // Clawdeen Wolf
+  },
+  {
+    pergunta: "Quem é a filha de um zumbi em Monster High?",
+    respostas: [
+      "Ghoulia Yelps",
+      "Cleo de Nile",
+      "Lagoona Blue"
+    ],
+    CORRETA: 0 // Ghoulia Yelps
+  },
+  {
+    pergunta: "Qual é a filha da Múmia em Monster High?",
+    respostas: [
+      "Cleo de Nile",
+      "Draculaura",
+      "Frankie Stein"
+    ],
+    CORRETA: 0 // Cleo de Nile
+  },
+  {
+    pergunta: "Qual é o nome da filha do Fantasma em Monster High?",
+    respostas: [
+      "Cleo de Nile",
+      "Ghoulia Yelps",
+      "Spectra Vondergeist"
+    ],
+    CORRETA: 2 // Spectra Vondergeist
+  },
+  {
+    pergunta: "Quem é conhecido como 'A Górgona' em Monster High?",
+    respostas: [
+      "Lagoona Blue",
+      "Cleo de Nile",
+      "Deuce Gorgon"
+    ],
+    CORRETA: 2 // Deuce Gorgon
+  },
+  {
+    pergunta: "Qual é a filha do Monstro do Mar em Monster High?",
+    respostas: [
+      "Lagoona Blue",
+      "Spectra Vondergeist",
+      "Clawdeen Wolf"
+    ],
+    CORRETA: 0 // Lagoona Blue
+  }
+];
+
   //procurar a base do html (quiz{procura o ID /template(procura as tags html))
   const quiz =document.querySelector('#quiz')
   const template = document.querySelector('template')
